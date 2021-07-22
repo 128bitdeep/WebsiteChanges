@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Website Changes</title>
+</head>
+
+<body id="main_body">
+
+    <img id="top" src="images/top.png" alt="">
+    <div id="form_container">
+
+    <form name="WebsiteChanges" action= "../WebsiteChanges/notmain.py">
+        <div class="form_description">
+            <h2>Monitor and Get Notified for Changes!</h2>
+            <p>This script will send a mail if there is any change in the mentioned URL.</p>
+        </div>
+        <ul>
+
+            <li id="li_1">
+                <label class="description" for="element_1">URL</label>
+                <div>
+                    <input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255"
+                        value="" />
+                </div>
+                <p class="guidelines" id="guide_1"><small>Enter your URL</small></p>
+            </li>
+            <li id="li_2">
+                <label class="description" for="element_2">Email </label>
+                <div>
+                    <input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255"
+                        value="" />
+                </div>
+            </li>
+
+            <li class="buttons">
+                <input type="hidden" name="form_id" value="29773" />
+
+                <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+            </li>
+        </ul>
+    </form>        
+    </div>
+    <img id="bottom" src="images/bottom.png" alt="">
+</body>
+
+</html>
